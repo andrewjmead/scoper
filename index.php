@@ -1,6 +1,7 @@
 <?php
 
-require_once 'vendor/autoload.php';
+// require_once 'vendor/autoload.php';
+require_once 'vendor/scoper-autoload.php';
 
 $f = new \Illuminate\Support\Fluent([
     'name' => 'Andrew',
